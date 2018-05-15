@@ -24,4 +24,9 @@ app.get('/about', function(req, res) {
     res.render('about');
 });
 
-app.listen(port, () => console.log(`escuchando en el puerto http://localhost:${port}`));
+var ip = '35.227.73.145';
+
+app.listen(port, ip);
+
+
+console.log(`escuchando en el puerto http://${ip}:${port}`);
