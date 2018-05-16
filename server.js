@@ -15,6 +15,7 @@ app.set('view engine', 'hbs');
 
 
 
+
 app.get('/', function(req, res) {
     res.render('home', {
         nombre: 'agricola CALI JAMUNDI BUGA TULUA'
@@ -26,4 +27,4 @@ app.get('/about', function(req, res) {
 
 //var ip = '35.227.73.145';
 
-app.listen(port, () => console.log(`escuchando en el puerto http://localhost:${port}`));
+app.listen(port, () => console.log(`escuchando en el puerto http://localhost:${port} es decir en`));
